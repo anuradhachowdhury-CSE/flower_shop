@@ -1,0 +1,58 @@
+/* Banner style */
+.banner{
+    display: flex;
+    height: 450px;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+.banner img{
+      width: 500px;
+    height: 400px;
+    padding-right: 50px;   
+}
+.banner .text{
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 96px;
+}
+.banner h3{
+    font-size: 50px;
+    font-weight:bolder;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    
+}
+.banner a{
+    text-align: center;
+    background-color: #E55473;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* footer style */
+footer{
+ text-align: center;
+ height: 300px;
+ background-color: black;
+ color: aliceblue;
+}
+footer span{
+    color: brown;
+    
+}
+footer h6{
+    color: gray;
+}
+footer h3{
+    font-size: 30px;
+    padding-top: 20px;
+    
+}
