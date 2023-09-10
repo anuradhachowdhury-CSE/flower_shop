@@ -1,18 +1,22 @@
+
+
+
+
 /* Banner style */
 .banner{
     display: flex;
-    height: 450px;
+    height: 550px;
     background-color: rgba(229, 84, 115, 0.10);
 }
 .banner img{
       width: 500px;
-    height: 400px;
+    height: 550px;
     padding-right: 50px;   
 }
 .banner .text{
     text-align: left;
     padding-top: 30px;
-    padding-left: 80px;
+    padding-left: 15%;
     padding-right: 96px;
 }
 .banner h3{
@@ -21,7 +25,7 @@
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     
 }
-.banner a{
+ .button{
     text-align: center;
     background-color: #E55473;
     color: white;
@@ -31,10 +35,105 @@
 }
 
 
+/* Featured flower */
+.featured-flower{
+    margin-top: 5%;
+    text-align: center;
+}
+.featured-flower article{
+    /* margin-left:20%; */
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    
 
+}
+.featured-flower img{
+    /* gap: 10px; */
+    height: 300px;
+    width:300px;
+    /* box-shadow: 2px 2px 2px gray; */
+    /* margin: 30px; */
+}
+.featured-flower h5{
+    text-decoration: underline;
+}
+.pink{
+    border-radius: 300px 300px 0px 0px;
+    background-color:rgba(167, 33, 98, 0.15); ;
+}
+.water{
+    border-radius: 300px 300px 0px 0px;
+    background-color:rgba(5, 151, 160, 0.15);
+}
+.green{
+    border-radius: 300px 300px 0px 0px;
+    background-color:rgba(71, 125, 17, 0.15);
+}
 
+/* Hot deals */
+.hot-deals article{
+    margin: 10%;
+    display: flex;
+}
+.hot-deals{
+    margin-top: 5%;
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgba(229, 84, 115, 0.10);
+    /* height: 400px; */
+    /* width: 1922px;
+height: 620px; */
+}
+.hot-deals h3{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.hot-deals img{
+   margin-left: 15%;
+   margin-bottom: 10%;
+    width: 220px;
+}
 
+/* Instragran style */
 
+.instragram{
+    margin-top: 50px;
+    text-align: center;
+}
+.instragram article{
+    justify-content: space-between;
+}
+.instragram img{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+/* Latest Deals */
+.latest-deals{
+    padding-top: 5%;
+    text-align: center;
+    margin: 10%;
+    background-image: url('images/Rectangle\ 9.png');
+    height: 250px;
+}
+.latest-deals .email{
+   width: 400px;
+   height: 40px;
+   border-radius: 5px;
+   border: white;
+   padding: 5px;
+}
+.latest-deals .btn{
+    margin-left: 5px;
+    height: 40px;
+    border-radius: 3px;
+    border: gray;
+    background-color: #E55473;
+    color: white;
+    font-weight: 600;
+}
 
 
 /* footer style */
