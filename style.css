@@ -1,5 +1,8 @@
 
-
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
 
 
 /* Banner style */
@@ -58,6 +61,12 @@
 .featured-flower h5{
     text-decoration: underline;
 }
+.featured-flower h4{
+    font-size: 24px;
+}
+.featured-flower p{
+    color: gray;
+}
 .pink{
     border-radius: 300px 300px 0px 0px;
     background-color:rgba(167, 33, 98, 0.15); ;
@@ -94,12 +103,18 @@ height: 620px; */
    margin-bottom: 10%;
     width: 220px;
 }
+.hot-deals p{
+    color: gray;
+}
 
 /* Instragran style */
 
 .instragram{
     margin-top: 50px;
     text-align: center;
+}
+.instragram h4{
+    font-size: 24px;
 }
 .instragram article{
     justify-content: space-between;
@@ -108,6 +123,9 @@ height: 620px; */
     width: 250px;
     height: 250px;
     margin: 10px;
+}
+.instragram p{
+    color: gray;
 }
 
 /* Latest Deals */
@@ -134,10 +152,31 @@ height: 620px; */
     color: white;
     font-weight: 600;
 }
-
+/* Extra style */
+.extra{
+    display: flex;
+    width: 80%;
+    box-shadow: 10px 10px 10px 10px green;
+   margin-left: 9%;
+   padding: 10px;
+   background-color: aliceblue;
+}
+.extra-work img{
+    margin-left: 20%;
+    width:50% ;
+}
+.extra-text{
+    display:grid;
+   
+}
+.extra-text input,textarea{
+    padding: 5px;
+    border-radius: 5px;
+}
 
 /* footer style */
 footer{
+    width: 100%;
  text-align: center;
  height: 300px;
  background-color: black;
